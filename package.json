@@ -1,6 +1,6 @@
 {
   "name": "itasca",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A minimal MVC web framework for solo devs and productive teams",
   "main": "index.js",
   "scripts": {
