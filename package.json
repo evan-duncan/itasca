@@ -1,0 +1,28 @@
+{
+  "name": "itasca",
+  "version": "0.0.1",
+  "description": "A minimal MVC webframework for solo devs and productive teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evan-duncan/itasca.git"
+  },
+  "keywords": [
+    "web",
+    "framwork",
+    "MVC",
+    "productive"
+  ],
+  "author": "Evan Duncan <evan.e.duncan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evan-duncan/itasca/issues"
+  },
+  "homepage": "https://github.com/evan-duncan/itasca#readme",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
