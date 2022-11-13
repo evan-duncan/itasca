@@ -24,5 +24,8 @@
   "homepage": "https://github.com/evan-duncan/itasca#readme",
   "devDependencies": {
     "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "yargs": "^17.6.2"
   }
 }
