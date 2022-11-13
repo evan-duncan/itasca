@@ -1,7 +1,7 @@
 {
   "name": "itasca",
   "version": "0.0.2",
-  "description": "A minimal MVC webframework for solo devs and productive teams",
+  "description": "A minimal MVC web framework for solo devs and productive teams",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive"
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "web",
-    "framwork",
+    "framework",
     "MVC",
     "productive"
   ],

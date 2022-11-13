@@ -13,13 +13,10 @@ Your entrypoint file can tell itasca to run.
 // index.js
 const itasca = require('itasca');
 
-(async () => {
-  try {
-    await itasca.run();
-  } catch (e) {
-    console.error(e);
-  }
-})();
+itasca.run().catch(e => {
+  console.error(e);
+  process.exit(1);
+});
 ```
 
 You application should have a `config/application.js`, and `config/environments/{development, test, production}.js`.
@@ -30,7 +27,7 @@ These files will serve as the main configuration for itasca. If you do not inclu
 
 module.exports = (config) => {
   // Initialize defaults for generated Itasca version
-  config.loadDefaults(0.1)
+  config.loadDefaults('0.1');
   
   // Settings in config/environments/* take precedence over those specified here.
 }
